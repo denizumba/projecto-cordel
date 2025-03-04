@@ -73,6 +73,11 @@ section > p {
     background-attachment: fixed;
 }
 
+/*
+    SHORTHAND
+    background: colo>image>position>repeat>[size]>attachment
+*/
+
 .imagem {
     background: #333333 url('imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
@@ -93,15 +98,11 @@ section > p {
     background-color: rgba(0, 0, 0, 0.514);
 }
 
-/*
-    SHORTHAND
-    background: colo>image>position>repeat>[size]>attachment
-*/
-
 footer {
     background-color: black
     ;
     color: white;
     text-align: center;
+    font-size: 0.8em;
     padding: 5px;
 }
